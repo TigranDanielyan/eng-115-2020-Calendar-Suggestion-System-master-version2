@@ -125,6 +125,4 @@ def main():
     if apealed_days.get_size() > 0:
         apealed_days.print_list()
         print(f'Appeal was made for {apealed_days.get_size()} days this month')
-    Utilities.write_to_json('teacher.json', Utilities.export_dll_data(dll, "month"))
-
-main()
+        Utilities.write_to_json('teacher.json', Utilities.export_dll_data(dll, "month"))
