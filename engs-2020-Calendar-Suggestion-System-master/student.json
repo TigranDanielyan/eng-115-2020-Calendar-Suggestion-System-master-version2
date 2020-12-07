@@ -1,0 +1,28 @@
+{
+  "student": [
+    {
+      "realName": "Artur Mnacakanjan",
+      "Admincode": "143",
+      "Queready": "No",
+      "name": "11",
+      "password": "212",
+      "student that apealed dates": []
+    },
+    {
+      "realName": "Miko ali",
+      "Admincode": "71",
+      "Queready": "No",
+      "name": "13331",
+      "password": "1121",
+      "student that apealed dates": []
+    },
+    {
+      "realName": "Ani Marlian",
+      "Admincode": "9",
+      "Queready": "No",
+      "name": "12121",
+      "password": "11131",
+      "student that apealed dates": []
+    }
+  ]
+}
