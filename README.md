@@ -23,9 +23,11 @@ For teahers and students to order their events,exames,quiz,workshops and maybe o
 5.2.4) student pasword system is a feature which allows to student login into program and also not allows them to spam apeals for the same date to get exam apealed.
 
 5.2.5) this system allows when an exam date got apealed both notify students and teachers when next time program starts.
-   5.2.5.1) the notification system 1 is now made by double link list code and class system interactions which would project the days that were appealed
+   5.2.5.1) the notification system 1 is now made by double link list code and class's system interactions which would project the days that were appealed
    5.2.5.2) the other notification is written in old code and is just used to do same thing form student side
 
-5.2.6) written by HashMap and class made this codes function works for not allow for there be on the whim be added students and deleted students from jsons and is ment to be done by 3rd party who would input and add students into system and then latter allow them to fully register
+5.2.6) this part of the code written by HashMap and class's made this codes function works for not allow for there be on the whim be added students and deleted students from jsons and is ment to be done by 3rd party who would input and add students into system and then latter allow them to fully register
 
-5.2.7) this code wirtten with Deque and a class codes to allow to student to see when the programs starts that they were added to the syetm
+5.2.7) this code wirtten with Deque and a class's codes to allow to student to see when the programs starts that they were added to the syetm
+
+5.2.8) 
