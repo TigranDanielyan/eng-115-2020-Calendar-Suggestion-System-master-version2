@@ -85,6 +85,8 @@ def creator():
     S.Admincode = str(HT._hash(l1))
     S.Queready = "Yes"
     S.realName = k1
+    print(f"the Admincode key is {str(HT._hash(l1))}")
+    print(f"the  real name of student is {k1}")
     HT.put("key1", S)
     S.ExportToJSON({})
     Utilities.write_to_json('student.json', Utilities.export_ht_data(HT, 'student'))
