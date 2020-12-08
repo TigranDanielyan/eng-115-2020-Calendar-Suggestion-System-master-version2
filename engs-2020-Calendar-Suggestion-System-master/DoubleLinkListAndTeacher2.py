@@ -99,11 +99,12 @@ class DoublyLinkedList(object):
 class Month():
     def __init__(self):
         self.day = ""
-        self.filled = "No"
+        self.filled = ""
         self.apeal = ""
 
     def ImportFromJSON(self, jsonElement):
         self.day = jsonElement['day']
+        self.filled = jsonElement['filled']
         self.apeal = jsonElement['apeal']
 
     def ExportToJSON(self, jsonElement):
@@ -121,6 +122,7 @@ def main():
         if this_node.data.apeal == 20:
             apealed_days.add(this_node.data.day)
             this_node.data.apeal = 0
+            this_node.data.filled = "No"
         this_node = this_node.get_next()
     if apealed_days.get_size() > 0:
         apealed_days.print_list()
